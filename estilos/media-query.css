@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Typical device breakpoints: recomendações W3c
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768 até 992px
+Desktop: 992 até 1200px
+TV-Grandes telas: Acima de 1200px
+ */
+
+ /* para  telas de até 992px (celular e tablet, o menu hamburguer será mostrado. Acima disso, o menu aparecerá como display block */
+ @media screen and (min-width: 992px) {
+
+    i#burguer {
+        display: none;
+    }
+menu  {
+    display: block;
+} 
+/* para colocar as opções do menu uma do lado da outra: */
+menu >ul > li {
+    display: inline-block;
+}
+
+main {
+    width: 992px;
+}
+ }
+
