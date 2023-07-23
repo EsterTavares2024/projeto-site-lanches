@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+  <header>
+    <h1> Emes Lanches</h1>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <menu id="itens">
+        <ul>
+            <li> <a href="#"> Hot Dogs</a></li>
+            <li> <a href="#"> Hamburguers</a></li>
+            <li> <a href="#"> Bebidas</a></li>
+            <li> <a href="#"> Sobre nós</a></li>
+            <li> <a href="#"> Contato</a></li>
+        </ul>
+    </menu>
+
+  </header>  
+  <main>
+    <article>
+    <h2> Testando Media Queries</h2>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt autem possimus voluptatibus numquam vitae ipsum nostrum saepe, reprehenderit sequi aut, doloribus corporis quia eligendi exercitationem in dolor, nemo quibusdam mollitia. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi itaque obcaecati enim. Praesentium tempora officiis quae neque soluta alias magni porro, minus, hic ut odit adipisci suscipit quo exercitationem! Quaerat!</p>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt autem possimus voluptatibus numquam vitae ipsum nostrum saepe, reprehenderit sequi aut, doloribus corporis quia eligendi exercitationem in dolor, nemo quibusdam mollitia. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi itaque obcaecati enim. Praesentium tempora officiis quae neque soluta alias magni porro, minus, hic ut odit adipisci suscipit quo exercitationem! Quaerat!</p>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt autem possimus voluptatibus numquam vitae ipsum nostrum saepe, reprehenderit sequi aut, doloribus corporis quia eligendi exercitationem in dolor, nemo quibusdam mollitia. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi itaque obcaecati enim. Praesentium tempora officiis quae neque soluta alias magni porro, minus, hic ut odit adipisci suscipit quo exercitationem! Quaerat!</p>
+    </article>
+  </main>
+  <script>
+    function clickMenu() {
+    if (itens.style.display == 'block') {
+        itens.style.display = 'none'
+    } else {
+        itens.style.display = 'block'
+    }
+    }
+  </script>
+  <!-- com o script acima, clicando-se nas 3 linhas ele mostra o menu, clicando novamente, ele esconde o menu
+== igual
+= recebe -->
+</body>
+</html>
